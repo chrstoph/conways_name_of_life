@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="cell.css">
+	<link rel="stylesheet" type="text/css" href="gameBoard.css">
+</head>
+<body> 
+
+<h1>Conways Game of Life</h1>
+
+<div class="form_container">
+	<form>
+		<p><label>width: </label><input type="text" id="numberColumns" value="10"></p>
+		<p><label>height: </label><input type="text" id="numberRows" value="7"></p>
+		<p><label>timeout (milliseconds): </label><input type="text" id="timeout" value="500"></p>
+	</form>
+</div>
+
+<button type="button" onclick="startButtonPressed()" id="startButton">start</button>
+<button type="button" onclick="stopButtonPressed()" id="stopButton">stop game</button>
+
+<div id="gameBoard" class="gameBoard" >
+
+</div>
+
+<script src="game.js"></script>
+<script src="cell.js"></script>
+<script src="board.js"></script>
+
+</body>
+</html>

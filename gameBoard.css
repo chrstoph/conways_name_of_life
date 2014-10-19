@@ -1,0 +1,19 @@
+
+
+.gameBoard {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.row {
+	display: inline-block;
+}
+
+.form_container {
+	width: 500px;
+    clear: both;
+}
+
+.form_container input{
+	width: 100%;
+    clear: both;
+}
