@@ -1,4 +1,4 @@
-conways_name_of_life
+conways_game_of_life_javascript
 ====================
 
-conways name of life test in javascript
+conways game of life test in javascript
